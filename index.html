@@ -11,6 +11,10 @@
     
      <!--NAVIGATION-->
 
+     <nav class="logo-container">
+        <a href="index.html"><img class="navigationLogo" src="images/zerobuzzLogo.webp" alt="ZeroBuzz Logo"></a>
+    </nav>  
+
      <section class="p-menu1">
         <nav id="navbar" class="navigation" role="navigation">
           <input id="toggle1" type="checkbox" />
@@ -21,23 +25,36 @@
           </label>
       
           <nav class="menu1">
-            <a class="link1" href="index.html">Forside</a>
-            <a class="link1" href="produkter.html">Vores produkter</a>
-            <a class="link1" href="dialog.html">Skab en dialog</a>
-            <a class="link1" href="omOs.html">Om os</a>
+            <a class="link1" id="active" href="index.html">FORSIDE</a>
+            <a class="link1" href="produkter.html">VORES PRODUKTER</a>
+            <a class="link1" href="dialog.html">SKAB EN DIALOG</a>
+            <a class="link1" href="omOs.html">OM OS</a>
+            <!--Shopping cart-->
+            <img class="menuCart" src="images/shoppingcart.webp" alt="shopping cart symbol">
           </nav>
         </nav>
       </section>
 
     <main>
+
+        <!--Front page image desktop & tablet-->
         <article class="frontpageImg">
-        <img id="frontPageBottle" src="images/forsidebillede2.webp" alt="Billede af ZeroBuzz øl">
+        <img id="frontPageBottle" src="images/bottleDesktopVers.webp" alt="Billede af ZeroBuzz øl">
         </article>
+
+        <!--Front page image mobile-->
+        <article class="frontpageImg">
+            <img id="frontPageBottleMobile" src="images/bottleMobileVers.webp" alt="Billede af ZeroBuzz øl">
+            </article>
+
     </main>
 
-    <!--Footer-->
-    <footer>
-        <p>ZeroBuzz ApS</p>
-    </footer>
+ <!--Footer-->
+ <footer>
+    <p><i>ZeroBuzz ApS</i></p>
+    <p>Kontakt os: <a href="mailto:zerobuzzbrew@example.com"><b>Klik her</b></a></p>
+    <p>Find os på <b>Instagram</b></p>
+</footer>
+   
 </body>
-</html>
+</html> 
