@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+    <title>ZeroBuzz</title>
+</head>
+<body>
+    
+     <!--NAVIGATION-->
+
+     <nav class="logo-container">
+        <a href="index.html"><img class="navigationLogo" src="images/zerobuzzLogo.webp" alt="ZeroBuzz Logo"></a>
+    </nav>  
+
+     <section class="p-menu1">
+        <nav id="navbar" class="navigation" role="navigation">
+          <input id="toggle1" type="checkbox" />
+          <label class="hamburger1" for="toggle1">
+            <div class="top"></div>
+            <div class="meat"></div>
+            <div class="bottom"></div>
+          </label>
+      
+          <nav class="menu1">
+            <a class="link1" href="index.html">FORSIDE</a>
+            <a class="link1" href="produkter.html">VORES PRODUKTER</a>
+            <a class="link1" id="active" href="dialog.html">SKAB EN DIALOG</a>
+            <a class="link1" href="omOs.html">OM OS</a>
+            <!--Shopping cart-->
+            <img class="menuCart" src="images/shoppingcart.webp" alt="shopping cart symbol">
+          </nav>
+        </nav>
+      </section>
+
+<main>
+    <article id="topArticle">
+    <h1 class="dialogH1">SNAK MED DINE VENNER. SKAB EN DIALOG.</h1>
+        <p>Vi skal være bedre til at snakke om vores alkoholforbrug. Derfor vil vi gerne hjælpe dig på vej.
+           <br>
+           På bagsiden af vores etiketter finder du et spørgsmål - stil det, og lad samtalen udfolde sig derefter. 
+        </p>
+    </article>
+
+    <article id="bottomArticle">
+    <h2 class="dialogH2">Vil du gerne stille et spørgsmål? Send det til os</h2>
+    <p>Har du et spørgsmål du synes vi skal stille hinanden noget mere? 
+       <br>
+       Send det ind via formularen herunder, og måske kommer det bag på vores etiketter!
+    </p>
+    </article>
+
+    <!--QUESTION FORMULA-->
+
+    <form class="dialogForm">
+      <form action="#" method="post">
+        <label for="name">Fornavn:</label>
+        <input type="text" id="name" name="name" required>
+        <br>
+
+        <label for="lastname">Efternavn:</label>
+        <input type="text" id="lastname" name="lastname" required>
+        <br>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+
+        <label for="question">Stil dit spørgsmål:</label><br>
+        <textarea id="question" name="question" rows="4" required></textarea>
+        <br>
+
+        <button type="submit">SEND SPØRGSMÅL</button>
+    </form>
+    </form>
+
+    <img class="dialogPicture" src="images/dialogBillede.webp" alt="Flaske closeup">
+</main>
+
+ <!--FOOTER-->
+
+ <footer>
+    <p><i>ZeroBuzz ApS, 2024</i></p>
+    <p>Kontakt os: <a href="mailto:zerobuzzbrew@example.com"><b>Klik her</b></a></p>
+    <p>Find os på <b><a href="#">Instagram</b></a></p>
+</footer>
+
+</body>
+</html>
