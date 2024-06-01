@@ -260,8 +260,8 @@ a {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 20px; 
-  margin-left: 20%;
-  margin-right: 20%;
+  max-width: 1000px;
+  margin: 0 auto;
   margin-bottom: 50px;
 }
 
@@ -284,7 +284,8 @@ a {
 .productsH1 {
   color: #AA6B01;
   font-size: 3em;
-  margin-left: 20%;
+  max-width: 1000px;
+  margin: 0 auto;
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -300,6 +301,7 @@ a {
 
 .productContainer {
   max-width: 600px;
+  margin:10px;
 }
 
 .productDescription {
@@ -307,13 +309,31 @@ a {
   margin-top:10px;
 }
 
+/*-------OM OS------*/
+.omOsContent {
+  margin: 0 auto;
+  margin-top: 50px;
+  max-width: 700px;
+  color: #22310A;
+}
+
+.omOsH1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+  color: #AA6B01;
+}
+
+.omOsH2 {
+  color: #AA6B01;
+  font-size: 2em;
+}
 
 /*-------FOOTER------*/
 
 footer {
   width: 100%;
   background-color: #ebb662;
-  color: #ffffff;
+  color: #AA6B01;
   padding: 10px;
   text-align: right;
   box-sizing: border-box;
@@ -326,7 +346,7 @@ footer p {
 }
 
 footer a {
-  color: #ffffff;
+  color: #AA6B01;
   text-decoration: none;
 }
 
