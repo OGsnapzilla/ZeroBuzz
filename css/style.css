@@ -75,7 +75,7 @@ a {
   cursor: pointer;
 }
 
-.hamburger1 div {
+.hamburger1 span {
   background-color: rgb(61, 61, 61);
   position: relative;
   width: 40px;
